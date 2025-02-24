@@ -5,6 +5,14 @@
     "module": "",
     "types": "",
     "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DevMaffi/prettier-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/DevMaffi/prettier-config/issues"
+    },
+    "homepage": "https://github.com/DevMaffi/prettier-config#readme",
     "keywords": [
         "prettier",
         "prettierrc"
