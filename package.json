@@ -1,6 +1,8 @@
 {
     "name": "@devmaff1/prettier-config",
     "version": "1.0.0",
+    "description": "A shareable Prettier config.",
+    "type": "module",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
@@ -21,13 +23,15 @@
     ],
     "author": "devmaff1",
     "license": "MIT",
-    "description": "A shareable Prettier config.",
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "prettier": ">=3.0.0"
+    },
     "devDependencies": {
         "prettier": "3.5.2",
         "tsup": "^8.3.6",
         "typescript": "^5.7.3"
-    },
-    "peerDependencies": {
-        "prettier": ">=3.0.0"
     }
 }
