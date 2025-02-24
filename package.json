@@ -1,10 +1,12 @@
 {
     "name": "@devmaff1/prettier-config",
     "version": "1.0.0",
-    "main": "",
-    "module": "",
-    "types": "",
-    "scripts": {},
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsup"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DevMaffi/prettier-config.git"
@@ -19,5 +21,9 @@
     ],
     "author": "devmaff1",
     "license": "MIT",
-    "description": "A shareable Prettier config."
+    "description": "A shareable Prettier config.",
+    "devDependencies": {
+        "tsup": "^8.3.6",
+        "typescript": "^5.7.3"
+    }
 }
