@@ -19,7 +19,7 @@ pnpm add --save-dev --save-exact @devmaff1/prettier-config prettier
 ```
 
 > [!IMPORTANT]
-> Prettier version `3.0.0` or higher is required as a peer dependency. Please ensure it is installed in your project's `devDependencies`.
+> Prettier version `3.5.0` or higher is required as a peer dependency. Please ensure it is installed in your project's `devDependencies`.
 
 ## Usage
 

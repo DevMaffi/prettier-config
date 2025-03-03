@@ -27,12 +27,12 @@
         "access": "public"
     },
     "peerDependencies": {
-        "prettier": ">=3.0.0"
+        "prettier": ">=3.5.0"
     },
     "devDependencies": {
-        "@devmaff1/prettier-config": "2025.1.4",
-        "prettier": "3.5.2",
+        "@devmaff1/prettier-config": "2025.1.5",
+        "prettier": "3.5.3",
         "tsup": "^8.4.0",
-        "typescript": "^5.7.3"
+        "typescript": "^5.8.2"
     }
 }
