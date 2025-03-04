@@ -11,6 +11,7 @@
 
 # Source
 /src
+.prettierignore
 .prettierrc
 tsconfig.json
 tsup.config.ts
